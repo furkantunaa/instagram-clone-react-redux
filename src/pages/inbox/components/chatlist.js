@@ -8,9 +8,9 @@ export default function ChatList() {
       id: 1,
       user: {
         avatar: "/no-avatar.jpeg",
-        name: "Furkan Tuna",
+        name: "Furkan ",
       },
-      lastMessage: "Selam furkan!",
+      lastMessage: "Selam!",
     },
     {
       id: 2,
@@ -26,9 +26,9 @@ export default function ChatList() {
       id: 3,
       user: {
         avatar: "/no-avatar.jpeg",
-        name: "Furkan Tuna",
+        name: "Can Tuna",
       },
-      lastMessage: "Selam furkan!",
+      lastMessage: "Heyyy!",
     },
   ];
 
