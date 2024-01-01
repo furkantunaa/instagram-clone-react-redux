@@ -26,7 +26,7 @@ export default function ChatList() {
       id: 3,
       user: {
         avatar: "/no-avatar.jpeg",
-        name: "Can Tuna",
+        name: " Tuna",
       },
       lastMessage: "Heyyy!",
     },

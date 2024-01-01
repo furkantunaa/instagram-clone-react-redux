@@ -30,14 +30,13 @@ onAuthStateChanged(auth, async (user) => {
     const dbUser = await getDoc(doc(db, "users", user.uid));
     let data = {
       uid: user.uid,
-      fullName: user.displayName,
+      fullName: user.dispprocess?.envlayName,
       email: user.email,
       emailVerified: user.emailVerified,
       ...dbUser.data(),
     };
     userHandle(data);
   } else {
-    userHandle(false);
   }
 });
 

@@ -95,9 +95,8 @@ export default function Home() {
               </span>
             </div>
             <img
-              className="h-4/5 w-full	mb-4 text-xs pb-12"
-              src="https://scontent.cdninstagram.com/v/t39.30808-6/413833105_676930457978580_6228921507379532821_n.jpg?stp=dst-jpg_e15&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi40OTh4NDk4LnNkciJ9&amp;_nc_ht=scontent.cdninstagram.com&amp;_nc_cat=100&amp;_nc_ohc=u_VUPg3Yj18AX8vj4jM&amp;edm=APs17CUAAAAA&amp;ccb=7-5&amp;ig_cache_key=MzI2NzA0NDExMzk5MzcxODY2MA%3D%3D.2-ccb7-5&amp;oh=00_AfAZit63_Q5gTO3o2Aee_W0TX8M4__Gq-E_MohD_f3BGiQ&amp;oe=659108D2&amp;_nc_sid=10d13b"
-              class="x5yr21d xu96u03 x10l6tqk x13vifvy x87ps6o xh8yej3"
+              className="h-4/5 w-full	mb-4 text-xs mb-40	"
+              src="https://www.instagram.com/static/images/homepage/screenshots/screenshot2-2x.png/80b8aebdea57.png"
             />
           </div>
         </div>

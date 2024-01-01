@@ -7,6 +7,7 @@ import { register } from "firebase.js";
 import { Formik, Form } from "formik";
 import { RegisterSchema } from "validation";
 import { Helmet } from "react-helmet";
+import { userHandle } from "utils";
 
 export default function Register() {
   const navigate = useNavigate();
@@ -14,9 +15,9 @@ export default function Register() {
 
   const handleSubmit = async (values, actions) => {
     const response = await register(values);
-
+    userHandle(false);
     if (response) {
-      navigate(location.state?.return_url || "/login", {
+      navigate(location.state?.return_url || "/auth/login", {
         replace: true,
       });
     }
